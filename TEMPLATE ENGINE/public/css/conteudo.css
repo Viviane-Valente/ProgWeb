@@ -1,0 +1,144 @@
+html {
+	margin: 0;
+	padding: 0;
+    background: url(https://www.teahub.io/photos/full/29-294240_russia-wallpaper-4k.jpg) no-repeat;
+    background-size: cover;
+	}
+body { 
+	background-color: #ffffff98; 
+    border-radius: 30px;
+    min-height: 43em;
+
+}
+
+button{
+	border: none;
+    background-color: #dcdcdc5d;
+	border-radius: 25px;
+}
+
+.links{
+    background-color:rgba(245, 222, 179, 0.781);
+    height: 1em;
+    margin: -0.5em !important;
+    padding: 0.5em;
+    font-size: 2.5em;
+}
+
+a{
+    margin-left: 1.3em;
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #3e3e3f;
+}
+
+h1{
+    margin-left: 2em; 
+}
+
+img{
+    border-radius: 30px;
+    margin-left: 2em; 
+    
+}
+
+.func{
+	color: #000000;
+}
+p { 
+	margin-top: 0; 
+	text-align: justify;
+}
+
+h3 { 
+	font-family: Jazz LET, fantasy;
+	font: italic normal 1.4em;
+	letter-spacing: 1px; 
+	margin-left: 2em; 
+	color: #7D775C;
+	float: center;
+}
+
+a:link { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #3e3e3f;
+	}
+a:visited { 
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #2d2b30;
+	}
+a:hover, a:focus, a:active { 
+	color: #000000;
+	}
+h4{
+    font: italic normal 1.1em georgia, sans-serif;
+    margin-left: 2em; 
+    
+}
+
+ul{
+	float: left;
+    font-family: Georgia;
+    font-size: large;
+	list-style-type: none;
+  	margin: 1em;
+  	padding: 0;
+  	overflow: hidden;
+	background: rgba(255, 255, 255, 0.589);
+}
+
+li{
+	
+	display: block;
+ 	color: black;
+ 	text-align: left;
+  	text-decoration: none;
+}
+
+footer{
+	bottom: 0;
+	position: relative;
+	text-align: center;
+	background-color: rgba(190, 190, 190);
+}
+
+.contato{
+    border-radius: 100px;
+    max-width: auto;
+	max-height: 2em;
+	border: none;
+}
+
+video{
+	margin-left: 2em;
+}
+
+.russia{
+    text-align: center;
+    margin-top: 6%;
+    font-size: 3em;
+	background: linear-gradient(to bottom, white, blue,red);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+	color: #0000ff;
+    font-weight: 700;
+}
+
+.imagem{
+	max-height: 30em;
+	max-width: 30em;
+    border-radius: 30px;
+    margin-left: 2em; 
+    border: 8px ridge rgba(150, 121, 67, 0.747);
+	float: left;
+}
+
+.mostrar{
+	display: none;
+}
+  
+.passar_mouse:hover .mostrar{
+	display:block;
+}
